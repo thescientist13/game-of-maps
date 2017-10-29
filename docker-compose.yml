@@ -15,7 +15,7 @@ services:
       - "8080:80"
 
   database:
-    image: postgres:10.0
+    image: mdillon/postgis:9.6
     ports:
       - "5432:5432"
     environment:
