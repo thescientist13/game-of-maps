@@ -6,6 +6,9 @@
   "repository": "git@github.com:thescientist13/game-of-maps.git",
   "author": "Owen Buckley <owen.buckley@analogstudios.net>",
   "license": "MIT",
+  "engines": {
+    "node": ">=7.6.0"
+  },
   "scripts": {
     "lint": "eslint ./src/**/*.js"
   },
