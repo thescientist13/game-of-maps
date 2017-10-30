@@ -12,7 +12,11 @@ services:
   nodejs:
     image: node:8.7.0
     ports:
-      - "8080:80"
+      - "8080:5000"
+    volumes:
+      - .:/docker-mount
+    working_dir: /docker-mount
+    entrypoint: ./entrypoint.sh
 
   postgres:
     image: mdillon/postgis:9.6
