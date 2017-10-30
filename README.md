@@ -18,7 +18,7 @@ Demo of Game of Apps from the guide [here](https://atlasofthrones.com/)
 
 ## Starting the App
 1. In root for this repo, run `docker-compose up`
-1. Open `localhost:8080`
+1. Open `localhost:8080/hello`
 1. To stop, run `docker-compose down`
 
 ### Helpful Commands

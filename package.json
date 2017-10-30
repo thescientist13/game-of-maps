@@ -1,0 +1,29 @@
+{
+  "name": "game-of-maps",
+  "version": "1.0.0",
+  "description": "Dockerized version of A Game of Maps",
+  "main": "./src/server/index.js",
+  "repository": "git@github.com:thescientist13/game-of-maps.git",
+  "author": "Owen Buckley <owen.buckley@analogstudios.net>",
+  "license": "MIT",
+  "engines": {
+    "node": ">=7.6.0"
+  },
+  "scripts": {
+    "lint": "eslint ./src/**/*.js"
+  },
+  "dependencies": {
+    "dotenv": "4.0.0",
+    "ioredis": "3.1.4",
+    "joi": "10.6.0",
+    "kcors": "2.2.1",
+    "koa": "2.3.0",
+    "koa-joi-validate": "0.5.1",
+    "koa-router": "7.2.1",
+    "pg": "7.2.0",
+    "winston": "2.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^4.10.0"
+  }
+}
